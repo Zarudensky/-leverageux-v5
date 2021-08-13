@@ -1729,3 +1729,13 @@ textarea:focus {
     background-position: 32% 82%;
   }
 }
+
+@media screen and (min-width: 1900px) {
+  .header__container {
+    max-width: 1250px;
+    padding: 0;
+  }
+  .header.scrolled .header__block_logo:before { 
+    content: none;
+  }
+}

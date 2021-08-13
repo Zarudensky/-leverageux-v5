@@ -138,7 +138,7 @@
   flex-direction: column;
   align-items: flex-start;
   max-width: 492px;
-  margin-top: 168.5px;
+  margin-top: 168px;
   margin-left: 150px;
   z-index: 9;
 }
@@ -151,8 +151,8 @@
   height: 32px;
 }
 .main__container_title {
-  font-size: 54px;
-  line-height: 54px;
+  font-size: 52px;
+  line-height: 52px;
   letter-spacing: 0.01em;
   color: #fff;
   text-align: start;
@@ -178,6 +178,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: calc(100% - 30px);
+  max-width: 1040px;
   margin: 80px auto;
 }
 .section__idea_block.idea__block_first {
@@ -1227,5 +1228,88 @@
 @media screen and (max-width: 440px) {
   .section__solutions .section__description br{
     display: none;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .index__page .header__logo:hover {
+    color: #A6A6A6;
+  }
+  .section__main {
+    display: flex;
+    justify-content: center;
+    height: 1070px;
+    background-image: url(../img/home/main_2.png);
+  }
+  .main__chart {
+    background-position: 0;
+    background-size: 1290px;
+    width: 100%;
+    max-width: 1540px;
+  }
+  .main__lines {
+    background-image: url(../img/home/main_lines_2.svg);
+    background-size: 100%;
+    background-position: 0 -50px;
+  }
+  .main__tablet {
+    background-position: left 60px;
+    background-size: 755px;
+    left: calc(50% - 115px);
+  }
+  .section__main.animated .main__tablet {
+    animation: mainTabletD 1.2s 1 ease;
+  }
+  @keyframes mainTabletD {
+    0% {
+      background-position-x: 200%;
+    }
+    100% {
+      background-position-x: left;
+    }
+  }
+  .main__tablet_shadow {
+    width: 100%;
+    bottom: 650px;
+    max-width: 1250px;
+    background-position: 560px 0;
+    background-size: 665px;
+  }
+  .section__main.animated .main__tablet_shadow {
+    animation: mainTabletShadowD 2s 1 ease;
+  }
+  @keyframes mainTabletShadowD {
+    0% {
+      opacity: 0;
+      bottom: 485px;
+    }
+    50% {
+      opacity: 0;
+      bottom: 485px;
+    }
+    100% {
+      opacity: 1;
+      bottom: 650px;
+    }
+  }
+  .main__tablet_shadow_lines {
+    width: 100%;
+    max-width: 1250px;
+    background-position: 570px 85px;
+    background-size: 645px;
+  }
+  .main__container {
+    width: 100%;
+    max-width: 1250px;
+    margin-left: 0;
+    margin-top: 230px;
+  }
+  .main__container_description {
+    max-width: 492px;
+  }
+}
+@media screen and (min-width: 2600px) {
+  .section__main {
+    height: 1240px;
   }
 }
