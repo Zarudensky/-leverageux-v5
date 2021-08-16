@@ -1232,9 +1232,6 @@
 }
 
 @media screen and (min-width: 1900px) {
-  .index__page .header__logo:hover {
-    color: #A6A6A6;
-  }
   .section__main {
     display: flex;
     justify-content: center;
@@ -1310,6 +1307,6 @@
 }
 @media screen and (min-width: 2600px) {
   .section__main {
-    height: 1240px;
+    height: 1250px;
   }
 }

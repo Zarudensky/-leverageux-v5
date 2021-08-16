@@ -204,3 +204,26 @@
     -khtml-background-size: contain;
   }
 }
+@media screen and (min-width: 1900px) {
+  .section__broker .section__container_img {
+    background-image: url(../img/portfolio/broker_2.jpeg);
+    background-position: calc(50% - 365px);
+  }
+  .section__insight .section__container_img {
+    background-image: url(../img/portfolio/insight_2.jpeg);
+    background-position: calc(50% + 365px);
+  }
+  .section__rank .section__container_img {
+    background-image: url(../img/portfolio/rank_2.jpeg);
+    background-position: calc(50% - 365px);
+  }
+  .section__real .img__gradient {
+    background-position: calc(50% + 365px);
+  }
+  .section__crypt .img__gradient {
+    background-position: calc(50% - 365px);
+  }
+  .section__money .img__gradient {
+    background-position: calc(50% + 365px);
+  }
+}
