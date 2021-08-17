@@ -399,3 +399,17 @@
 @media screen and (max-width: 410px) {
   .review__block_descr br {display: none;}
 }
+
+@media screen and (min-width: 1900px) {
+  .reviews__text, .reviews__gradient, .reviews__lower {
+    display: none;
+  }
+  .reviews__container_img {
+    background-image: url(../img/about/reviews.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 600px) center;
+  }
+  .reviews__container_text {
+    right: calc(50% - 655px);
+  }
+}
