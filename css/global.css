@@ -1830,6 +1830,12 @@ textarea:focus {
   }
 }
 @media screen and (min-width: 2230px) {
+  body.portfolio__page .section__hero,
+  body.design__page .section__hero,
+  body.pricing__page .section__hero,
+  body.about__page .section__hero {
+    height: calc(750px - 210px);
+  }
   .hero__lines {
     height: 360px;
   }
