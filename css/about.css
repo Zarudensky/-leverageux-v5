@@ -333,14 +333,14 @@
   .persone_1 {order: 1}
   .persone_2 {order: 2}
   .persone_3 {order: 3}
-  .persone_4 {order: 5}
-  .persone_5 {order: 4}
+  .persone_4 {order: 4}
+  .persone_5 {order: 5}
   .persone_6 {order: 6}
   .persone_7 {order: 7}
   .persone_8 {order: 8}
-  .persone_9 {order: 11}
-  .persone_10 {order: 9}
-  .persone_11 {order: 10}
+  .persone_9 {order: 9}
+  .persone_10 {order: 10}
+  .persone_11 {order: 11}
   .persone_12 {order: 12}
 }
 @media screen and (max-width: 600px) {
