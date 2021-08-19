@@ -1160,3 +1160,12 @@
     height: 645px;
   }
 }
+
+@media screen and (min-width: 1900px) {
+	.showcase .hero__lines {
+		display: none;
+	}
+	.showcase .footer__lines {
+		display: none;
+	}
+}

@@ -130,3 +130,41 @@
     background-image: url(../img/showcases/insight/hero_mob.jpg);
   }
 }
+@media screen and (min-width: 1900px) {
+  .insight__page .section__hero {
+    background-image: url(../img/showcases/insight/hero_2.jpeg);
+  }
+  .showcase .hero__info {
+    position: absolute;
+    margin: 0;
+    top: 290px;
+    left: calc(50% - 800px);
+  }
+  .insight__page .footer {
+    background-image: url(../img/showcases/insight/footer_2.jpeg);
+  }
+  .section__updated .section__container_img {
+    background-image: url(../img/showcases/insight/updated_2.jpeg);
+    background-position: calc(50% + 370px) center;
+  }
+  .section__updated .section__container_text {
+    margin-top: 90px;
+    left: calc(50% - 590px);
+  }
+  .section__visual .section__container_img {
+    background-image: url(../img/showcases/insight/visual_2.jpeg);
+    background-position: calc(50% - 365px) center;
+  }
+  .section__visual .section__container_text {
+    margin-top: 80px;
+    right: calc(50% - 590px);
+  }
+  .section__driven .section__container_img {
+    background-image: url(../img/showcases/insight/driven_2.jpeg);
+    background-position: calc(50% + 380px) center;
+  }
+  .section__driven .section__container_text {
+    margin-top: 125px;
+    left: calc(50% - 590px);
+  }
+}
