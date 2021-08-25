@@ -221,7 +221,6 @@
 	line-height: 32px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	text-transform: capitalize;
 	color: #fff;
 	margin: 15px auto;
 	z-index: 2;
@@ -294,7 +293,6 @@
 	font-size: 18px;
 	line-height: 26px;
 	letter-spacing: 0.01em;
-	text-transform: capitalize;
 	color: #828282;
 }
 .goals__block-project {
@@ -390,7 +388,6 @@
 	font-size: 18px;
 	line-height: 21px;
 	letter-spacing: 0.01em;
-	text-transform: capitalize;
 	color: #828282;
 }
 .challenge__left {
@@ -641,7 +638,6 @@
 	font-size: 24px;
 	line-height: 32px;
 	letter-spacing: 0.01em;
-	text-transform: capitalize;
 	text-align: left;
 	color: #828282;
 	margin-bottom: 30px;
