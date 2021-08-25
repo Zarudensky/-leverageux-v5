@@ -207,6 +207,9 @@
   line-height: 14px;
   color: #4A4A4A;
 }
+.br__for_mobile {
+  display: none;
+}
 
 @media screen and (max-width: 1550px) {
   .reviews__container_text {
@@ -375,6 +378,9 @@
   .reviews__container_text {
     width: calc(100% - 40px);
     padding: 0 20px;
+  }
+  .br__for_mobile {
+    display: inline;
   }
   .review__block {
     width: 100%;
